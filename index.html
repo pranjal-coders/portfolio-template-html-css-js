@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" href="./imgs/OIP.jpeg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">L</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Contact Me</a>
+                </li> 
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                    Pranjal Pal</h1>
+                    <p>
+                        I'm a web developer and designer. I love to create beautiful and responsive websites.<span>I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button">
+                            View Resume
+                        </a>
+                        <a href="#" class="button">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="./imgs/github.png" alt="Github" width="48px">
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/linkedin.png" alt="Linkedin" width="48px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/zoro.png" alt="Roronoa Zoro" width="100%">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
